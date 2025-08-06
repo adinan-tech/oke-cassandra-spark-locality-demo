@@ -63,7 +63,7 @@ Click below to open the stack in the OCI console:
 (https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)
 ]
 (https://cloud.oracle.com/resourcemanager/stacks/create
-?zipUrl=<package-url>)
+?zipUrl=https://github.com/adinan-tech/oke-cassandra-spark-locality-demo/archive/refs/heads/main.zip)
 
 Follow the guided flow to:
 * Select your compartment
