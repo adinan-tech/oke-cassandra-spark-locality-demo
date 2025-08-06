@@ -60,8 +60,6 @@ Click below to open the stack in the OCI console:
 
 [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/adinan-tech/oke-cassandra-spark-locality-demo/archive/refs/heads/main.zip)
 
-[![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/adinan-tech/oke-cassandra-spark-locality-demo/archive/refs/heads/main.zip)
-
 Follow the guided flow to:
 * Select your compartment
 * Configure the VCN, cluster name, and node shapes
