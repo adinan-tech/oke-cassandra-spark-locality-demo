@@ -46,7 +46,6 @@ groupings:
       - compartment_ocid
       - tenancy_ocid
       - user_ocid
-      - private_key_path
       - fingerprint
       - oci_service_gateway
       - cluster_options_add_ons_is_kubernetes_dashboard_enabled
@@ -244,4 +243,5 @@ variables:
     type: boolean
     title: "Deploy Bastion to Public Subnet"
     default: true
+
     required: true
