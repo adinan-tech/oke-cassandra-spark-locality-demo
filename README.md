@@ -76,7 +76,6 @@ Follow the guided flow to:
     Then edit *terraform.tfvars* and fill in your own values for:
     * user_ocid
     * fingerprint
-    * private_key_path
     * tenancy_ocid 
     * region
     * compartment_ocid
