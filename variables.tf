@@ -19,6 +19,10 @@ variable "fingerprint" {
   default = ""
 }
 
+variable "private_key_path" {
+  default = ""
+}
+
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Network Settings
@@ -187,6 +191,7 @@ variable "bastion_shape_config_memory_in_gbs" {
   description = "You can customize the amount of memory allocated to a flexible shape"
 
 }
+
 
 
 
