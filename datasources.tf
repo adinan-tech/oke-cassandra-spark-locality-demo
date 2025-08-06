@@ -8,17 +8,6 @@ data "oci_identity_availability_domains" "ADs" {
   compartment_id = var.tenancy_ocid
 }
 
-
-locals {
-  # Helm repos
-  helm_repository = {
-    stable        = "https://kubernetes-charts.storage.googleapis.com"
-    ingress-nginx = "https://kubernetes.github.io/ingress-nginx"
-    jetstack      = "https://charts.jetstack.io"                        # cert-manager
-    svc-cat       = "https://svc-catalog-charts.storage.googleapis.com" # Service Catalog
-  }
-}
-
 # OCI Services
 ## Available Services
 data "oci_core_services" "all_services" {
@@ -61,6 +50,7 @@ data "oci_containerengine_cluster_option" "latestclusterversion" {
   #Required
   cluster_option_id = "all"
 }
+
 
 
 
