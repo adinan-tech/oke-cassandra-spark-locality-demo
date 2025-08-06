@@ -89,7 +89,7 @@ terraform plan
 terraform apply
 ```
 
-**Note:** The initial infrastructure provisioning completes within 10-15 minutes, but the full setup (via cloud-init on the bastion) takes about 20 minutes to install Helm, deploy Cassandra and Spark, and run the read job.
+**Note:** The initial infrastructure provisioning completes within about 15 minutes, but the full setup (via cloud-init on the bastion) takes about 20 minutes to install Helm, deploy Cassandra and Spark, and run the read job.
 
 To monitor the process, SSH into the bastion and run:
 
