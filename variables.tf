@@ -12,9 +12,11 @@ variable "ssh_provided_public_key" {
   default = ""
 }
 variable "user_ocid" {
+  default = ""
 }
 
 variable "fingerprint" {
+  default = ""
 }
 
 
@@ -185,5 +187,6 @@ variable "bastion_shape_config_memory_in_gbs" {
   description = "You can customize the amount of memory allocated to a flexible shape"
 
 }
+
 
 
