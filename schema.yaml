@@ -261,6 +261,7 @@ variables:
     description: "Only required when running via Terraform CLI"
     required: false
     visible: false
+    default: ""
 
   fingerprint:
     type: string
@@ -268,6 +269,7 @@ variables:
     description: "Only required when running via Terraform CLI"
     required: false
     visible: false
+    default: ""
 
   private_key_path:
     type: string
@@ -275,3 +277,5 @@ variables:
     description: "Only required when running via Terraform CLI"
     required: false
     visible: false
+    default: ""
+
