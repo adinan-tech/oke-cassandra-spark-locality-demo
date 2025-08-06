@@ -79,7 +79,7 @@ Follow the guided flow to:
     * tenancy_ocid 
     * region
     * compartment_ocid
-    * ssh_public_key
+    * ssh_provided_public_key
 
 3. Run Terraform:
 
