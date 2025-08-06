@@ -2,7 +2,7 @@ title: Cassandra data locality with Spark jobs on OKE
 schemaVersion: 1.1.0
 version: "20190304"
 locale: "en"
-groupings:
+variableGroups:
   - title: "SSH Key"
     variables:
       - ssh_provided_public_key
@@ -61,7 +61,7 @@ variables:
   compartment_ocid:
     type: oci:identity:compartment:id
     required: true
-    visibile: true
+    visible: true
     title: "Compartment"
     description: "Choose compartment where you want to deploy the resources"
 
@@ -278,4 +278,5 @@ variables:
     required: false
     visible: false
     default: ""
+
 
