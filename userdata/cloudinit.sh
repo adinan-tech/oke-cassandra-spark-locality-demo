@@ -450,6 +450,8 @@ metadata:
 spec:
   template:
     spec:
+      nodeSelector:
+        spark-locality: "true"
       containers:
       - name: spark-read
         image: bitnami/spark:3.3.2-debian-11-r0
@@ -477,4 +479,5 @@ kubectl delete job spark-read-cassandra -n spark --ignore-not-found >> "$LOG_FIL
 kubectl apply -f /root/manifests/spark-read.yaml >> "$LOG_FILE" 2>&1
 
 # Mark cloud-init as complete
+
 log "Cloud-init complete."
