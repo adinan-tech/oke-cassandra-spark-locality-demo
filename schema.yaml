@@ -138,7 +138,7 @@ variables:
 
   custom_cidrs:
     type: boolean
-    title: "Customize Network CIDRS"
+    title: "Customize Network CIDRs"
     description: "Click to customize CIDR ranges, only applicable when creating VCN as part of deployment"
     required: true
     default: false
@@ -278,6 +278,7 @@ variables:
     required: false
     visible: false
     default: ""
+
 
 
 
