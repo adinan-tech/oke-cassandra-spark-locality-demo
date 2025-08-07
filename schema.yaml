@@ -220,8 +220,8 @@ variables:
   node_pool_size:
     type: int
     title: "Data locality Node Pool size"
-    description: "Enter a value, minimum 1"
-    min: 1
+    description: "Enter a value, at least 2, for the data locality test"
+    min: 3
     default: 1
     required: true
     visible: create_new_oke_cluster
@@ -278,5 +278,6 @@ variables:
     required: false
     visible: false
     default: ""
+
 
 
